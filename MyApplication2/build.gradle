@@ -26,4 +26,8 @@ dependencies {
 	compile 'com.android.support:support-v4:19.0.0'
 	compile 'com.android.support:gridlayout-v7:19.0.0'
 	compile 'com.android.support:appcompat-v7:19.0.0'
+    compile ('com.octo.android.robospice:robospice-spring-android:1.4.7')
+            {
+                exclude module: 'support-v4'
+            }
 }
